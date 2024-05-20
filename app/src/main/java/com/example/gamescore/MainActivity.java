@@ -62,8 +62,6 @@ public class MainActivity extends AppCompatActivity {
         Team2_Score.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                startActivity(intent);
                 Log.d("FirstBug", "Clicked Team2_Score" );
                 score2++;
                 updateScore2();
