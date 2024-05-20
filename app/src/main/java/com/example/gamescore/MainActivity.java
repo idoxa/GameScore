@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
                 updateScore1();
                 String text = Team1_Score.getText().toString();
                 if (text.equals("30")) {
-                    Team1_Score.setText("YOU WIN!");
-                    Team2_Score.setText("LOSER");
+                    Team1_Score.setText(R.string.you_win);
+                    Team2_Score.setText(R.string.loser);
                     score2 = 0;
                     score1 = 0;
                 }
@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
                 updateScore2();
                 String text = Team2_Score.getText().toString();
                 if (text.equals("30")) {
-                    Team2_Score.setText("YOU WIN!");
-                    Team1_Score.setText("LOSER");
+                    Team2_Score.setText(R.string.you_win);
+                    Team1_Score.setText(R.string.loser);
                     score2 = 0;
                     score1 = 0;
                 }
